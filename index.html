@@ -7,37 +7,31 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="shortcut icon" href="images/logo/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/geral.css">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">CINESENAI</a>
+              <a class="navbar-brand text-white" href="#">CINESENAI</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">..</a>
+                    <a class="nav-link text-white" href="#cartaz">Filmes em cartaz</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Conta
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Entrar</a></li>
-                      <li><a class="dropdown-item" href="pages/login.html">Criar uma conta</a></li>
-                      
-                    </ul>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#horarios">Horários de Funcionamento</a>
                   </li>
                 </ul>
                 <form id="pesquisa" class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Digite um filme" aria-label="Search">
-                  <button class="btn" type="submit">Buscar</button>
+                  <button class="btn text-white" type="submit">Buscar</button>
                 </form>
               </div>
             </div>
@@ -81,14 +75,14 @@
             </button>
           </div>
 
-          <!-- <h3 id="hcartaz" class="text-center m-0 mt-5 p-3 text-white"> EM CARTAZ</h3> -->
+          <h3 id="hcartaz" class="text-center m-0 mt-5 p-3 text-white"> EM CARTAZ</h3>
           <div id="cartaz">
             <div class="card" style="width: 18rem;">
               <img src="images/cartaz/garfield.jpg" class="card-img-top" alt="garfield">
               <div class="card-body">
                 <h5 class="card-title">Garfield - Fora de Casa</h5>
                 <p class="card-text">Comédia</p>
-                <a href="#" class="btn btn-primary">Ver detalhes</a>
+                <a href="#" class="btn text-white">Ver seção</a>
               </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -96,7 +90,7 @@
               <div class="card-body">
                 <h5 class="card-title">Guerra Civil</h5>
                 <p class="card-text">Ação</p>
-                <a href="#" class="btn btn-primary">Ver detalhes</a>
+                <a href="#" class="btn text-white">Ver seção</a>
               </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -104,7 +98,7 @@
               <div class="card-body">
                 <h5 class="card-title">Planeta dos Macacos</h5>
                 <p class="card-text">Ação</p>
-                <a href="#" class="btn btn-primary">Ver detalhes</a>
+                <a href="#" class="btn text-white">Ver seção</a>
               </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -112,10 +106,61 @@
               <div class="card-body">
                 <h5 class="card-title">Love Lies Bleeding</h5>
                 <p class="card-text">Suspense, Romance</p>
-                <a href="#" class="btn btn-primary">Ver detalhes</a>
+                <a href="#" class="btn text-white">Ver seção</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="images/cartaz/Conduzindo Madeleine.jpg" class="card-img-top" alt="Conduzindo Madeleine">
+              <div class="card-body">
+                <h5 class="card-title">Conduzindo Madeleine</h5>
+                <p class="card-text">Drama</p>
+                <a href="#" class="btn text-white">Ver seção</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="images/cartaz/Back to back.jpg" class="card-img-top" alt="back to black">
+              <div class="card-body">
+                <h5 class="card-title">Back to Black</h5>
+                <p class="card-text">Musical, Drama, Biografia</p>
+                <a href="#" class="btn text-white">Ver seção</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="images/cartaz/amigos-imaginarios.jpg" class="card-img-top" alt="amigos-imaginarios">
+              <div class="card-body">
+                <h5 class="card-title">Amigos imaginários</h5>
+                <p class="card-text">Comédia, Infantil, Drama</p>
+                <a href="#" class="btn text-white">Ver seção</a>
               </div>
             </div>
           </div>
+          
+          <section id="horarios">
+            <div id="horariosDiv">
+                <h3>Horários de Funcionamento </h3>
+    
+            <table>
+                <tr>
+                    
+                    <th>TERÇA</th>
+                    <th>QUARTA</th>
+                    <th>QUINTA</th>
+                    <th>SEXTA</th>
+                    <th>SÁBADO</th>
+                    <th>DOMINGO</th>
+                </tr>
+                <tr>
+                    <td>14:00 até 21:30</td>
+                    <td>14:00 até 21:30</td>
+                    <td>14:00 até 21:30</td>
+                    <td>13:30 até 23:40</td>
+                    <td>13:30 até 23:40</td>
+                    <td>13:30 até 23:40</td>
+                </tr>    
+            </table>
+            </div>
+        </section>
+      
             
           
     </main>
